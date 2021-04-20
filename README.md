@@ -12,7 +12,7 @@
 * 文本表示
   * 利用的词向量为[北师大中文词向量](https://github.com/Embedding/Chinese-Word-Vectors)
 * 依存句法图构建 
-  * 利用哈工大的[LTP]生成依存句法图(http://ltp.ai/)
+  * 利用哈工大的[LTP](http://ltp.ai/)生成依存句法图
 * BiLSTM-GCN构建
 * 训练-预测
 * classification_report输出
@@ -24,6 +24,11 @@
 
 ### 结果：
 * 训练30轮后的结果如下： 
+
+
 |*Precision (%)*|*Recall (%)*|*F1 (%)*|
-|---|---|---|
-|91.337|91.290|91.303| 
+|:---:|:---:|:---:|
+|91.337|91.290|91.303|
+
+### 使用：
+* `python train.py`
