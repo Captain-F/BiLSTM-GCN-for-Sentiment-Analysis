@@ -1,6 +1,5 @@
 # BiLSTM-GCN-for-Sentiment-Analysis
 ## 利用依存句法树和图卷积神经网络进行文本情感分析
-（代码即将释放...）
 
 ### 依赖库：
 * keras == 2.4.3
